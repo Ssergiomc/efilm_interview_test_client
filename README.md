@@ -28,7 +28,8 @@ TASK APP
 <h3>🟦 2.- Editor Codigo (IDE) / Terminal, acceder a la carpeta, con la ruta .../efilm_interview_test_client</h3>
 <h3>🟦 3.- Ejecutar comando "npm i" ( o "npm install") para descargar las dependencias necesarias y la carpeta node modules.</h3>
 <h3>🟦 4.- Arrancar la aplicación, parte cliente, con comando "npm start"</h3>
-<h3>🟦 5.- Se recomienda arrancar la parte del back, api, en primer lugar.</h3>
+<h3>🟦 5.- La aplicación abrirá directamente el navegador.</h3>
+<h3>🟦 6.- Se recomienda arrancar la parte del back, api, en primer lugar (<a href="https://github.com/Ssergiomc/efilm_interview_test_api">Api</a>).</h3>
 
 <h2>Fuentes</h2>
 
