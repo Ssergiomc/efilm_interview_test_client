@@ -34,14 +34,17 @@ TASK APP
 <h2>Imagenes</h2>
 
 <h3>Formularios Registro / Inicio Sesión</h3>
+
 ![register](https://user-images.githubusercontent.com/75389158/115181209-b335ea80-a0d7-11eb-8f0b-2493169022ce.png)
 ![login](https://user-images.githubusercontent.com/75389158/115181212-b4671780-a0d7-11eb-8c44-e2553ecafcdb.png)
 
 <h3>Acceso todas vista tareas general</h3>
+
 ![alltasksempty](https://user-images.githubusercontent.com/75389158/115181211-b3ce8100-a0d7-11eb-986a-617e2bd69fe0.png)
 ![alltasks](https://user-images.githubusercontent.com/75389158/115181210-b3ce8100-a0d7-11eb-9bd5-fc111007697e.png)
 
 <h3>Acceso vista tareas personales</h3>
+
 ![personaltasksempty](https://user-images.githubusercontent.com/75389158/115181208-b29d5400-a0d7-11eb-976f-015bae2c92d7.png)
 ![personaltasks](https://user-images.githubusercontent.com/75389158/115181204-b204bd80-a0d7-11eb-83bb-7ce698195390.png)
 
