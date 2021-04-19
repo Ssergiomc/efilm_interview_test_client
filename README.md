@@ -8,11 +8,12 @@ TASK APP
 
 Aplicación de tareas.
 
-🔹 Lista de tareas: acceso publico.
-🔹 CRUD de tareas: acceso restringido.
-🔹 Formulario Registro. Error en caso de contraseña no igual en ambos campos.
-🔹 Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.
-
+<ul>
+  🔹 Lista de tareas: acceso publico.
+  🔹 CRUD de tareas: acceso restringido.
+  🔹 Formulario Registro. Error en caso de contraseña no igual en ambos campos.
+  🔹 Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.
+</ul>
 
 <h2>Tecnologías</h2>
 
@@ -20,7 +21,6 @@ Aplicación de tareas.
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=101010)
-
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
 
 <h2>Despliegue</h2>
