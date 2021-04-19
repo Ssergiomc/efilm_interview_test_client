@@ -12,7 +12,7 @@ TASK APP
 <h4> 🔹 CRUD de tareas: acceso restringido.</h4>  
 <h4> 🔹 Formulario Registro. Error en caso de contraseña no igual en ambos campos.</h4> 
 <h4> 🔹 Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.</h4> 
-
+<h4> 🔹 Responsive.</h4>
 
 <h2>Tecnologías</h2>
 
