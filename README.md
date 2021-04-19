@@ -33,11 +33,17 @@ TASK APP
 
 <h2>Imagenes</h2>
 
-<img src="https://img.shields.io/badge/Portfolio-Sergio_M.C._(ENGLISH)-001db5?style=for-the-badge&logo=GitHub&logoColor=white&labelColor=181717" alt="portfolio tag">![personaltasks](https://user-images.githubusercontent.com/75389158/115181204-b204bd80-a0d7-11eb-83bb-7ce698195390.png)
-![personaltasksempty](https://user-images.githubusercontent.com/75389158/115181208-b29d5400-a0d7-11eb-976f-015bae2c92d7.png)
+Formularios Registro / Inicio Sesión
 ![register](https://user-images.githubusercontent.com/75389158/115181209-b335ea80-a0d7-11eb-8f0b-2493169022ce.png)
+![login](https://user-images.githubusercontent.com/75389158/115181212-b4671780-a0d7-11eb-8c44-e2553ecafcdb.png)
+
+Acceso todas vista tareas general
+![alltasksempty](https://user-images.githubusercontent.com/75389158/115181211-b3ce8100-a0d7-11eb-986a-617e2bd69fe0.png)
 ![alltasks](https://user-images.githubusercontent.com/75389158/115181210-b3ce8100-a0d7-11eb-9bd5-fc111007697e.png)
 
+Acceso vista tareas personales
+![personaltasksempty](https://user-images.githubusercontent.com/75389158/115181208-b29d5400-a0d7-11eb-976f-015bae2c92d7.png)
+![personaltasks](https://user-images.githubusercontent.com/75389158/115181204-b204bd80-a0d7-11eb-83bb-7ce698195390.png)
 
 <h2>Fuentes</h2>
 
@@ -61,8 +67,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-![alltasksempty](https://user-images.githubusercontent.com/75389158/115181211-b3ce8100-a0d7-11eb-986a-617e2bd69fe0.png)
-![login](https://user-images.githubusercontent.com/75389158/115181212-b4671780-a0d7-11eb-8c44-e2553ecafcdb.png)
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
