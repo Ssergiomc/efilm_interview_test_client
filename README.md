@@ -4,7 +4,7 @@
 
 TASK APP
 
-<h2>Características</h2>
+<h2>Características Front</h2>
 
 <h3>Aplicación de tareas.</h3>
 
