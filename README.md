@@ -2,7 +2,8 @@
 
 <h2>Nombre Proyecto</h2>
 
-TASK APP
+<h3>TASK APP</h3>
+
 
 <h2>Características Front</h2>
 
@@ -22,10 +23,10 @@ TASK APP
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=101010)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
 
-<h2>Despliegue</h2>
+<h2>Despliegue en Local</h2>
 
 <h3>🟦 1.- Clonado repositorio</h3>
-<h3>🟦 2.- Editor Codigo (IDE) / Terminal, acceder a la carpeta, con la ruta .../efilm_interview_test_client</h3>
+<h3>🟦 2.- Editor Codigo (IDE) en Terminal, acceder a la carpeta, con la ruta .../efilm_interview_test_client</h3>
 <h3>🟦 3.- Ejecutar comando "npm i" ( o "npm install") para descargar las dependencias necesarias y la carpeta node modules.</h3>
 <h3>🟦 4.- Arrancar la aplicación, parte cliente, con comando "npm start"</h3>
 <h3>🟦 5.- La aplicación abrirá directamente el navegador.</h3>
