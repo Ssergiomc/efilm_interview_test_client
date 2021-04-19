@@ -1,3 +1,47 @@
+<h1>Despliegue Version Español</h1>
+
+<h2>Nombre Proyecto</h2>
+
+TASK APP
+
+<h2>Características</h2>
+
+Aplicación de tareas.
+
+<ul>
+  <li>🔹Lista de tareas: acceso publico.</li>
+  <li>CRUD de tareas: acceso restringido.</li>
+  <li>Formulario Registro. Error en caso de contraseña no igual en ambos campos.</li>
+  <li>Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.</li>
+</ul>
+
+<h2>Tecnologías</h2>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=101010)
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
+
+<h2>Despliegue</h2>
+
+<h3>🟦 1.- Clonado repositorio</h3>
+<h3>🟦 2.- Editor Codigo (IDE) / Terminal, acceder a la carpeta, con la ruta .../efilm_interview_test_client</h3>
+<h3>🟦 3.- Ejecutar comando "npm i" ( o "npm install") para descargar las dependencias necesarias y la carpeta node modules.</h3>
+<h3>🟦 4.- Arrancar la aplicación, parte cliente, con comando "npm start"</h3>
+<h3>🟦 5.- Se recomienda arrancar la parte del back, api, en primer lugar.</h3>
+
+<h2>Fuentes</h2>
+
+Debo mencionar la fuente de la imagen de fondo para la App.
+
+<a href="https://www.freepik.com/photos/background">Background photo created by topntp26 - www.freepik.com</a>
+
+
+
+<h1>Deploy English Version</h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
