@@ -8,12 +8,11 @@ TASK APP
 
 Aplicación de tareas.
 
-<ul>
-  <li>🔹Lista de tareas: acceso publico.</li>
-  <li>CRUD de tareas: acceso restringido.</li>
-  <li>Formulario Registro. Error en caso de contraseña no igual en ambos campos.</li>
-  <li>Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.</li>
-</ul>
+🔹 Lista de tareas: acceso publico.
+🔹 CRUD de tareas: acceso restringido.
+🔹 Formulario Registro. Error en caso de contraseña no igual en ambos campos.
+🔹 Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.
+
 
 <h2>Tecnologías</h2>
 
