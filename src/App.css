@@ -1,3 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+}
+
+main {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("seto.png");
+  background-size: cover;
+}
+
+.logoIcon {
+  width: 50px;
+  height: 100%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  text-align: right;
+  color: #23be6a !important;
+}
+
+#welcomeContainer {
+  color: #23be6a;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+#welcomeContainer > span:first-child {
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+#welcomeUser {
+  font-size: 1rem;
+  line-height: 0.7;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 1rem !important;
+  text-align: center;
+  /* color: rgb(180, 202, 232); */
+  -webkit-text-fill-color: rgb(180, 202, 232);
+  -webkit-text-stroke: 1px rgba(72, 106, 243, 0.782);
+}
+
+h2 {
+  margin: 1rem !important;
+  text-align: center;
+  color: rgb(180, 202, 232);
+}
+
+h3 span {
+  font-weight: 600;
+}
+
+.text-alert {
+  color: crimson;
+  font-weight: 500;
+}
+
+#introText,
+#registerForm,
+#loginForm {
+  background-color: rgba(220, 220, 220, 0.823);
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  width: 90%;
+  margin: 1rem 0.25rem;
+}
+
+.expText{
+  margin-top: 0.75rem !important;
+}
+
+.formRegSubmitGroup,
+.formLogSubmitGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/* ************************
+*******   FOOTER   ******** 
+************************* */
+footer p {
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+}
+
+footer div a {
+  font-weight: 600;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 0 0.5rem 0;
+}
+
+.logoGithub {
+  width: 40px;
+  height: 100%;
+}
+
+/* **************************************
+*******   TAREAS / TodoList.js   ******** 
+************************************** */
+.contAllTasks {
+  margin: 1rem;
+}
+
+.card {
+  padding: 0.5rem;
+  background-color: rgba(207, 236, 238, 0.7) !important;
+}
+
+/* **********************************************
+*******  Modif TAREAS / ModifyTasks.js   ******** 
+********************************************** */
+#TaskForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  background-color: rgba(207, 236, 238, 0.7);
+  border-radius: 5px;
+}
+
+#newTaskForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem;
+}
+
+.formNewTask,
+.formNewTaskSubmit {
+  margin: 0.25rem !important;
+}
+
+.contNewTasks h2, .contUserTasks h2{
+  -webkit-text-fill-color: rgb(180, 202, 232);
+  -webkit-text-stroke: 1px rgba(72, 106, 243, 0.782);
+}
+
+.buttonTask {
+  background-color: rgba(137, 247, 196, 0.7);
+  border-radius: 5px;
+}
+
+.buttonComplete,
+.buttonEdit,
+.buttonDelete {
+  width: 20px;
+}
+
+.listTaskName {
+  font-size: 1.25rem;
+}
+
+.buttonsActions{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.listTaskOwner{
+  margin-top: 5px;
+}
+
+.cards {
+  font-weight: 600;
+  padding: 0.75rem;
+  background-color: rgba(137, 247, 196, 0.7) !important;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+.modal-header, .modal-footer{
+  background-color: rgba(207, 236, 238, 0.7) !important;
+}
+
+
+/* PC */
+
+@media screen and (min-width: 922px) {
+  #loginForm, #registerForm, #introText {
+    width: 45%;
+  }
+
+  .navbar-collapse {
+    flex-grow: unset !important;
+  }
+
+  #welcomeContainer {
+    margin-right: .5rem;
+    padding-right: 1rem;
+    border-right: #23be6a 1px solid;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  nav {
+    margin: 0 auto;
+  }
+}
+
+
+/* 
+
 .App {
   text-align: center;
 }
@@ -35,4 +260,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
