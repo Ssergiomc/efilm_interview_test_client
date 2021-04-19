@@ -1,4 +1,4 @@
-<h1>Despliegue Version Español</h1>
+<h1>Despliegue Version Español, PARTE CLIENTE/ FRONT</h1>
 
 <h2>Nombre Proyecto</h2>
 
@@ -6,14 +6,13 @@ TASK APP
 
 <h2>Características</h2>
 
-Aplicación de tareas.
+<h3>Aplicación de tareas.</h3>
 
-<ul>
-  🔹 Lista de tareas: acceso publico.
-  🔹 CRUD de tareas: acceso restringido.
-  🔹 Formulario Registro. Error en caso de contraseña no igual en ambos campos.
-  🔹 Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.
-</ul>
+<h4> 🔹 Lista de tareas: acceso publico.</h4>   
+<h4> 🔹 CRUD de tareas: acceso restringido.</h4>  
+<h4> 🔹 Formulario Registro. Error en caso de contraseña no igual en ambos campos.</h4> 
+<h4> 🔹 Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.</h4> 
+
 
 <h2>Tecnologías</h2>
 
