@@ -1,12 +1,11 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
+import { API_URL } from './../Const';
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 
 
 function Register() {
-
     const [newName, setName] = useState("");
     const [newEmail, setEmail] = useState("");
     const [newPass, setPass] = useState("");
@@ -50,7 +49,7 @@ function Register() {
     return (
         <>
             <h1>Registro</h1>
-            <Form id="registerForm" action="http://localhost:9000/users/register" method="POST">
+            <Form id="registerForm" action={`${API_URL}/users/register`} method="POST">
                 <Form.Group>
                     <Form.Label htmlFor="inputName">Nombre completo</Form.Label>
                     <Form.Control
@@ -87,7 +86,7 @@ function Register() {
                         id="inputPassword"
                         name="password"
                         onChange={readNewUser}
-                    />                    
+                    />
                 </Form.Group>
                 <Form.Group>
                     <Form.Label htmlFor="inputRepPassword">Repetir Contraseña</Form.Label>

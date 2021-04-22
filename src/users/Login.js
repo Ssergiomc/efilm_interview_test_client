@@ -1,11 +1,10 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
+import { API_URL } from './../Const';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Login() {
-
     const [userMail, setUserMail] = useState("");
     const [userPassword, setUserPassword] = useState("");
     const [loginMessageAlert, setLoginMessageAlert] = useState("");
@@ -40,7 +39,7 @@ function Login() {
             }
         }
 
-        fetch(`http://localhost:9000/users/login`, fetchSetUser)
+        fetch(`${API_URL}/users/login`, fetchSetUser)
             .then(resp => resp.json())
             .then(data => {
                 if (data.status === 0) {

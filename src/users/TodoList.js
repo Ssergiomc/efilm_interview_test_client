@@ -1,5 +1,6 @@
 import { Redirect } from 'react-router-dom';
 import { useState, useEffect } from "react";
+import { API_URL } from './../Const';
 
 
 function TodoList() {
@@ -18,7 +19,7 @@ function TodoList() {
 
 
     useEffect(() => {
-        fetch(`http://localhost:9000/tasks/all`)
+        fetch(`${API_URL}/tasks/all`)
             .then(resp => resp.json())
             .then(tasks => {
                 if (!tasks.message) {

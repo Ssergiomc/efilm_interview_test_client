@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { useState, useEffect } from "react";
+import { API_URL } from './../Const';
 
 import taskdone from '../greentick.png';
 import taskedit from '../edit.png';
@@ -40,7 +41,7 @@ function ModifyTasks() {
         setUserName(userNameFromStorage);
 
         if (userId !== "") {
-            fetch(`http://localhost:9000/tasks/gettasksuser/${userId}`)
+            fetch(`${API_URL}/tasks/gettasksuser/${userId}`)
                 .then(resp => resp.json())
                 .then(myTasks => {
                     if (myTasks.message) {
@@ -76,7 +77,7 @@ function ModifyTasks() {
                 'Content-Type': 'application/json; charset=UTF-8'
             }
         }
-        fetch("http://localhost:9000/tasks/deleteonetask", fetchDeleteTask)
+        fetch(`${API_URL}/tasks/deleteonetask`, fetchDeleteTask)
             .then(resp => resp.json())
             .then(myTasksModif => {
                 setUserTasks(myTasksModif)
@@ -86,10 +87,6 @@ function ModifyTasks() {
             })
     }
 
-
-
-
-    /* VOY POR AQUI */
     function editTask(e) {
 
         let taskModifObj = {
@@ -103,7 +100,7 @@ function ModifyTasks() {
                 'Content-Type': 'application/json; charset=UTF-8'
             }
         }
-        fetch(`http://localhost:9000/tasks/modifyonetask/${modifTaskId}`, fetchModifTask)
+        fetch(`${API_URL}/tasks/modifyonetask/${modifTaskId}`, fetchModifTask)
             .then(resp => resp.json())
             .then(data => {
                 if (data.status === 0) {
@@ -157,7 +154,7 @@ function ModifyTasks() {
                 <div className="contNewTasks">
                     <h2>Crear Tarea</h2>
                     <div id="TaskForm">
-                        <Form id="newTaskForm" action={`http://localhost:9000/tasks/createnewtask/${userName}/${userId}`} method="POST">
+                        <Form id="newTaskForm" action={`${API_URL}/tasks/createnewtask/${userName}/${userId}`} method="POST">
                             <Form.Group className="formNewTask">
                                 <Form.Control
                                     type="text"
