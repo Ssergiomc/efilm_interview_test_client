@@ -15,6 +15,7 @@
 <h4> 🔹 Formulario Inicio de sesión. Error en caso de contraseña incorrecta o usuario no existente.</h4> 
 <h4> 🔹 Responsive.</h4>
 
+
 <h2>Tecnologías</h2>
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)
@@ -22,6 +23,7 @@
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=101010)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=101010)
 
 <h2>Despliegue en Local</h2>
 
@@ -31,6 +33,10 @@
 <h3>🟦 4.- Arrancar la aplicación, parte cliente, con comando "npm start"</h3>
 <h3>🟦 5.- La aplicación abrirá directamente el navegador.</h3>
 <h3>🟦 6.- Se recomienda arrancar la parte del back, api, en primer lugar (<a href="https://github.com/Ssergiomc/efilm_interview_test_api">Api</a>).</h3>
+
+<h2>Despliegue Online Heroku</h2>
+<a href="https://sergio-taskapp.herokuapp.com/">Click to try me online</a>
+
 
 <h2>Imagenes</h2>
 
@@ -48,6 +54,7 @@
 
 ![personaltasksempty](https://user-images.githubusercontent.com/75389158/115181208-b29d5400-a0d7-11eb-976f-015bae2c92d7.png)
 ![personaltasks](https://user-images.githubusercontent.com/75389158/115181204-b204bd80-a0d7-11eb-83bb-7ce698195390.png)
+
 
 <h2>Fuentes</h2>
 
