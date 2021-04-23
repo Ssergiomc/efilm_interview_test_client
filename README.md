@@ -35,7 +35,7 @@
 <h3>🟦 6.- Se recomienda arrancar la parte del back, api, en primer lugar (<a href="https://github.com/Ssergiomc/efilm_interview_test_api">Api</a>).</h3>
 
 <h2>Despliegue Online Heroku</h2>
-<a href="https://sergio-taskapp.herokuapp.com/ target="_blank">Click to try me online</a>
+<a href="https://sergio-taskapp.herokuapp.com/" target="_blank">Click to try me online</a>
 
 
 <h2>Imagenes</h2>
