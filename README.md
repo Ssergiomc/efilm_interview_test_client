@@ -28,11 +28,17 @@
 <h2>Despliegue en Local</h2>
 
 <h3>🟦 1.- Clonado repositorio</h3>
-<h3>🟦 2.- Editor Codigo (IDE) en Terminal, acceder a la carpeta, con la ruta .../efilm_interview_test_client</h3>
-<h3>🟦 3.- Ejecutar comando "npm i" ( o "npm install") para descargar las dependencias necesarias y la carpeta node modules.</h3>
-<h3>🟦 4.- Arrancar la aplicación, parte cliente, con comando "npm start"</h3>
-<h3>🟦 5.- La aplicación abrirá directamente el navegador.</h3>
-<h3>🟦 6.- Se recomienda arrancar la parte del back, api, en primer lugar (<a href="https://github.com/Ssergiomc/efilm_interview_test_api">Api</a>).</h3>
+<h3>🟦 2.- Tras despliegue en Plataforma "Heroku". Se hace necesaria la creación de archivo ".env" con las variables de entorno para ejecutar la aplicación en local.</h3>
+<h3>🟦 2.1.- Dentro de carpeta "efilm_interview_test_client" crear archivo ".env"</h3>
+<h3>🟦 2.2.- Contenido archivo ".env" con la definición de las variables a emplear en local.</h3>
+     * REACT_APP_API_PROTOCOL=http
+     * REACT_APP_API_URL=localhost
+     * REACT_APP_API_PORT=9000
+<h3>🟦 3.- Editor Codigo (IDE) en Terminal, acceder a la carpeta, con la ruta .../efilm_interview_test_client</h3>
+<h3>🟦 4.- Ejecutar comando "npm i" ( o "npm install") para descargar las dependencias necesarias y la carpeta node modules.</h3>
+<h3>🟦 5.- Arrancar la aplicación, parte cliente, con comando "npm start"</h3>
+<h3>🟦 6.- La aplicación abrirá directamente el navegador.</h3>
+<h3>🟦 7.- Se recomienda arrancar la parte del back, api, en primer lugar (<a href="https://github.com/Ssergiomc/efilm_interview_test_api">Api</a>).</h3>
 
 <h2>Despliegue Online Heroku</h2>
 <a href="https://sergio-taskapp.herokuapp.com/" target="_blank">Pruebame online / Click to try me online</a>
