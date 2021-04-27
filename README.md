@@ -29,11 +29,13 @@
 
 <h3>🟦 1.- Clonado repositorio</h3>
 <h3>🟦 2.- Tras despliegue en Plataforma "Heroku". Se hace necesaria la creación de archivo ".env" con las variables de entorno para ejecutar la aplicación en local.</h3>
-<h3>🟦 2.1.- Dentro de carpeta "efilm_interview_test_client" crear archivo ".env"</h3>
-<h3>🟦 2.2.- Contenido archivo ".env" con la definición de las variables a emplear en local.</h3>
-     * REACT_APP_API_PROTOCOL=http
-     * REACT_APP_API_URL=localhost
-     * REACT_APP_API_PORT=9000
+    <h4>◻ 2.1.- Dentro de carpeta "efilm_interview_test_client" crear archivo ".env"</h3>
+    <h4>◻ 2.2.- Contenido archivo ".env" con la definición de las variables a emplear en local.</h3>
+<ul>
+    <li>REACT_APP_API_PROTOCOL=http</li>
+    <li>REACT_APP_API_URL=localhost</li>
+    <li>REACT_APP_API_PORT=9000</li>
+</ul>
 <h3>🟦 3.- Editor Codigo (IDE) en Terminal, acceder a la carpeta, con la ruta .../efilm_interview_test_client</h3>
 <h3>🟦 4.- Ejecutar comando "npm i" ( o "npm install") para descargar las dependencias necesarias y la carpeta node modules.</h3>
 <h3>🟦 5.- Arrancar la aplicación, parte cliente, con comando "npm start"</h3>
